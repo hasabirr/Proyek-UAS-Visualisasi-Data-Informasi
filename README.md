@@ -12,14 +12,13 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 >📋 Mengevaluasi visualisasi data interaktif yang telah dibuat berdasarkan persepsi penilaian oleh dua kelompok pengguna.
 
 ## Pengumpulan Data
- 
->📋 Data primer dari hasil pengisian kuesioner System Usability Scale (SUS) untuk evaluasi visualisasi interaktif data pendidikan Provinsi Jawa Barat.
 
->📋 Data dari website [Badan Pusat Statistik Provinsi Jawa Barat](https://jabar.bps.go.id/) seperti Indeks Pembangunan Manusia (IPM), Indeks Pendidikan, Angka Melek Huruf (AMH), Angka Partisipasi Murni (APM), Jumlah Sekolah, dan Rasio Guru dengan Murid.
+>📋 Data terdiri dari data primer dan sekunder.
 
->📋 Data yang dari website [Open Data Provinsi Jawa Barat](https://opendata.jabarprov.go.id/id) adalah Ketersediaan Fasilitas Pendidikan.
-
->📋 Data dari website [Indonesia Geospatial Portal](https://tanahair.indonesia.go.id/) yaitu data shape file batas administrasi Provinsi Jawa Barat.
+- Data primer dari hasil pengisian kuesioner System Usability Scale (SUS) untuk evaluasi visualisasi interaktif data pendidikan Provinsi Jawa Barat.
+- Data dari website [Badan Pusat Statistik Provinsi Jawa Barat](https://jabar.bps.go.id/) seperti Indeks Pembangunan Manusia (IPM), Indeks Pendidikan, Angka Melek Huruf (AMH), Angka Partisipasi Murni (APM), Jumlah Sekolah, dan Rasio Guru dengan Murid.
+- Data yang dari website [Open Data Provinsi Jawa Barat](https://opendata.jabarprov.go.id/id) adalah Ketersediaan Fasilitas Pendidikan.
+- Data dari website [Indonesia Geospatial Portal](https://tanahair.indonesia.go.id/) yaitu data shape file batas administrasi Provinsi Jawa Barat.
 
 ## Alat yang Digunakan
 
@@ -29,7 +28,7 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 
 ## Alur Penelitian
 
-![alur_penelitian](Alur_Penelitian/image.png)
+![alur_penelitian](Alur Penelitian/Alur Proyek Visdat.png)
 
 >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
