@@ -28,7 +28,7 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 
 ## Alur Penelitian
 
-![alur_penelitian](Alur Penelitian/Alur Proyek Visdat.png)
+![alur_penelitian]([Alur Penelitian/Alur Proyek Visdat.png](https://github.com/hasabirr/Proyek-UAS-Visualisasi-Data-Informasi/blob/main/Alur%20Penelitian/Alur%20Proyek%20Visdat.png))
 
 >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
