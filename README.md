@@ -12,26 +12,24 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 >📋 Mengevaluasi visualisasi data interaktif yang telah dibuat berdasarkan persepsi penilaian oleh dua kelompok pengguna.
 
 ## Pengumpulan Data
+ 
+>📋 Data primer dari hasil pengisian kuesioner System Usability Scale (SUS) untuk evaluasi visualisasi interaktif data pendidikan Provinsi Jawa Barat.
 
-To train the model(s) in the paper, run this command:
+>📋 Data dari website [Badan Pusat Statistik Provinsi Jawa Barat](https://jabar.bps.go.id/) seperti Indeks Pembangunan Manusia (IPM), Indeks Pendidikan, Angka Melek Huruf (AMH), Angka Partisipasi Murni (APM), Jumlah Sekolah, dan Rasio Guru dengan Murid.
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+>📋 Data yang dari website [Open Data Provinsi Jawa Barat](https://opendata.jabarprov.go.id/id) adalah Ketersediaan Fasilitas Pendidikan.
+
+>📋 Data dari website [Indonesia Geospatial Portal](https://tanahair.indonesia.go.id/) yaitu data shape file batas administrasi Provinsi Jawa Barat.
 
 ## Alat yang Digunakan
 
-To evaluate my model on ImageNet, run:
+1. Microsoft Excel untuk organisasi raw data hasil kuesioner SUS dan data visualisasi
+2. Tableau Versi 2022.4 untuk membuat visualisasi interaktif berbentuk *story board*
+3. IBM SPSS Statistics Versi 26 untuk melakukan uji *Mann-Whitney*
 
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
+## Alur Penelitian
 
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
-
-## Tahapan
-
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
+![alur_penelitian](Alur_Penelitian/image.png)
 
 >📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
