@@ -25,12 +25,13 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 1. Microsoft Excel untuk organisasi raw data hasil kuesioner SUS dan data visualisasi
 2. Tableau Versi 2022.4 untuk membuat visualisasi interaktif berbentuk *story board*
 3. IBM SPSS Statistics Versi 26 untuk melakukan uji *Mann-Whitney*
+4. QGIS Desktop Versi 3.20.2 untuk melakukan pemotongan *shape file*
 
 ## Alur Penelitian
 
-![alur_penelitian]([Alur Penelitian/Alur Proyek Visdat.png](https://github.com/hasabirr/Proyek-UAS-Visualisasi-Data-Informasi/blob/main/Alur%20Penelitian/Alur%20Proyek%20Visdat.png))
+![alur_penelitian](https://github.com/hasabirr/Proyek-UAS-Visualisasi-Data-Informasi/blob/main/Alur%20Penelitian/Alur%20Proyek%20Visdat.png)
 
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+>📋 Sebagai tambahan, *shape file* Provinsi Jawa Barat diperoleh dari pemotongan *shape file* Indonesia menggunakan *software* QGIS.
 
 ## Hasil
 
