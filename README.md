@@ -28,9 +28,14 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 
 ## Alur Penelitian
 
-![alur_penelitian](https://github.com/hasabirr/Proyek-UAS-Visualisasi-Data-Informasi/blob/main/Alur%20Penelitian/Alur%20Proyek%20Visdat.png)
+1. Pengumpulan data sekunder
+2. *Preprocessing* data sekunder
+3. Pemilihan *Chart* dan pembuatan visualisasi
+4. Publikasi visualisasi ke Tableau *Public*
+5. Evaluasi visualisasi interaktif
+6. Analisis deskriptif dan inferensia
 
->📋 Sebagai tambahan, *shape file* Provinsi Jawa Barat diperoleh dari pemotongan *shape file* Indonesia menggunakan *software* QGIS.
+>📋 Alur penelitian dalam bentuk gambar dapat diakses melalui tautan [berikut](https://github.com/hasabirr/Proyek-UAS-Visualisasi-Data-Informasi/blob/main/Alur%20Penelitian/Alur%20Proyek%20Visdat.png)
 
 ## Hasil
 
