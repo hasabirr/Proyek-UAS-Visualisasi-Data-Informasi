@@ -1,5 +1,5 @@
 # Visualisasi Interaktif Potret Provinsi Jawa Barat dalam SDGs
-Repository ini sebagai dokumentasi resmi dari project visualisasi UAS Mata Kuliah Visualisasi Data dan Informasi yang hasilnya dapat diakses melalui tautan [berikut](https://public.tableau.com/app/profile/rafif.hasabi/viz/VisualisasiInteraktifPotretSDGs4ProvinsiJawaBarat/VisualisasiInteraktifPotretProvinsiJawaBaratdalamSDGs4). 
+Repository ini sebagai dokumentasi resmi dari project visualisasi UAS Mata Kuliah Visualisasi Data dan Informasi yang **hasilnya dapat diakses** melalui tautan [berikut](https://public.tableau.com/app/profile/rafif.hasabi/viz/VisualisasiInteraktifPotretSDGs4ProvinsiJawaBarat/VisualisasiInteraktifPotretProvinsiJawaBaratdalamSDGs4). 
 
 ## Abstrak
 
