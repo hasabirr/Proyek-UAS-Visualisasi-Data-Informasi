@@ -7,9 +7,8 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 
 ## Tujuan
 
->📋 Mengimplementasikan visualisasi data interaktif menggunakan Tableau terkait data pendidikan di Provinsi Jawa Barat dalam satu Story Board yang menarik.
-
->📋 Mengevaluasi visualisasi data interaktif yang telah dibuat berdasarkan persepsi penilaian oleh dua kelompok pengguna.
+1. Mengimplementasikan visualisasi data interaktif menggunakan Tableau terkait data pendidikan di Provinsi Jawa Barat dalam satu Story Board yang menarik.
+2. Mengevaluasi visualisasi data interaktif yang telah dibuat berdasarkan persepsi penilaian oleh dua kelompok pengguna.
 
 ## Pengumpulan Data
 
@@ -35,9 +34,29 @@ Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) y
 
 ## Hasil
 
-Our model achieves the following performance on :
+Hasil yang diperoleh dari penelitian didasarkan pada tujuan yang ingin dicapai. Hasil tersebut dijabarkan dalam beberapa poin berikut.
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### Visualisasi Interaktif Data Pendidikan Provinsi Jawa Barat
+
+Hasil visualisasi dipublikasikan melalui server Tableau *Public* dan dapat diakses melalui tautan [berikut](https://public.tableau.com/app/profile/rafif.hasabi/viz/VisualisasiInteraktifPotretSDGs4ProvinsiJawaBarat/VisualisasiInteraktifPotretProvinsiJawaBaratdalamSDGs4). Visualisasi memuat fitur-fitur yang berkaitan dengan interaksi pengguna. Pengguna dapat mengatur tahun yang ingin ditampilkan, mengatur filter yang ingin digunakan, dan berpindah dari satu *story* ke *story* yang lainnya. Visualisasi interaktif ini akan maksimal apabila dijalankan pada Desktop dengan mode *full screen* dan koneksi internet yang memadai. Tampilan awal dari visualisasi adalah sebagai berikut. 
+
+### Evaluasi Visualisasi Interaktif Data Pendidikan Provinsi Jawa Barat
+
+Terdapat 10 responden dengan rincian 5 responden dari kalangan lingkup pendidikan dan 5 responden dari kalangan masyarakat umum. Evaluasi dilakukan dengan 10 pertanyaan berdasarkan kuesioer *System Usability Scale* (SUS). Setiap pertanyaan diisi menggunakan skala *likert* (1 - 5) dimana 1 berarti **Sangat tidak setuju** dan 5 berarti **Sangat setuju**. Hasil pengumpulan data kemudian diolah untuk dihitung skor setiap responden dan skor akhir secara keseluruhan. Diperoleh hasil perhitungan seperti berikut. 
+
+|Responden	|Q1  |Q2	|Q3	 |Q4	|Q5	 |Q6	|Q7	 |Q8	|Q9	 |Q10	|Jumlah |	Skor |
+|-----------|----|----|----|----|----|----|----|----|----|----|-------|------|
+|1	        |4	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |31	    |77.5  |
+|2          |	4	 |4	  |4	 |4	  |4	 |4  	|4	 |4	  |4	 |4	  |40	    |100   |
+|3	        |4	 |4	  |4	 |4	  |4	 |4	  |4	 |4	  |4	 |3	  |39	    |97.5  |
+|4	        |3	 |3	  |3	 |4	  |3	 |2	  |3	 |3	  |3	 |2	  |29	    |72.5  |
+|5	        |3	 |3	  |3	 |3	  |3	 |2	  |3	 |3	  |3	 |3	  |29	    |72.5  |
+|6	        |4	 |3	  |4	 |3	  |4	 |4	  |4	 |4	  |4	 |3	  |37	    |92.5  |
+|7	        |3	 |2	  |3	 |4	  |4	 |4	  |2	 |3	  |3	 |2	  |30	    |75    |
+|8	        |4	 |2	  |2	 |3	  |4	 |3	  |3	 |3	  |3	 |3	  |30 	  |75    |
+|9       	  |4	 |3	  |3	 |3	  |4	 |3	  |3	 |3	  |3	 |2	  |31	    |77.5  |
+|10	        |3	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |30	    |75    |
+|Jumlah	    |36	 |30	|32	 |34	|36	 |32	|32	 |33	|33	 |28	|326	  |815   |
 
 | Model name         | Top 1 Accuracy  | Top 5 Accuracy |
 | ------------------ |---------------- | -------------- |
