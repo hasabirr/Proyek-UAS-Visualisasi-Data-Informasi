@@ -3,11 +3,11 @@ Repository ini sebagai dokumentasi resmi dari project visualisasi UAS Mata Kulia
 
 ## Abstrak
 
-Pendidikan merupakan tujuan keempat dalam Sustainable Development Goals (SDGs) yaitu mendorong pendidikan yang berkualitas, inklusif, setara, dan mendukung kesempatan belajar bagi setiap orang. Data pendidikan yang tersebar dan dari berbagai tahun membuat sulitnya mendapatkan akses data pendidikan secara keseluruhan. Selain itu data yang ada masih berupa tabel sehingga audiens data membutuhkan waktu untuk memahami data tersebut. Data pendidikan diperoleh dari website Badan Pusat Statistik dan Open Data Provinsi Jawa Barat. Penelitian ini berusaha mengimplementasikan visualisasi interaktif terkait potret Provinsi Jawa Barat dalam SDGs keempat untuk menyatukan data pendidikan yang beragam menjadi satu tempat berbentuk story board dan dilakukan evaluasi menggunakan kuesioner system usability scale. Penelitian ini menghasilkan visualisasi interaktif yang menarik serta dari hasil evaluasi diperoleh skor 81.5 yang dapat dikategorikan Excellent. Dari hasil uji Mann-Whitney diperoleh bahwa tidak terdapat perbedaan persepsi penilaian antara kalangan lingkup pendidikan dan kalangan masyarakat umum.
+Pendidikan merupakan tujuan keempat dalam *Sustainable Development Goals* (SDGs) yaitu mendorong pendidikan yang berkualitas, inklusif, setara, dan mendukung kesempatan belajar bagi setiap orang. Data pendidikan yang tersebar dan dari berbagai tahun membuat sulitnya mendapatkan akses data pendidikan secara keseluruhan. Selain itu data yang ada masih berupa tabel sehingga audiens data membutuhkan waktu untuk memahami data tersebut. Data pendidikan diperoleh dari website Badan Pusat Statistik dan Open Data Provinsi Jawa Barat. Penelitian ini berusaha mengimplementasikan visualisasi interaktif terkait potret Provinsi Jawa Barat dalam SDGs keempat untuk menyatukan data pendidikan yang beragam menjadi satu tempat berbentuk *story board* dan dilakukan evaluasi menggunakan kuesioner *system usability scale*. Penelitian ini menghasilkan visualisasi interaktif yang menarik serta dari hasil evaluasi diperoleh skor 81.5 yang dapat dikategorikan **Excellent**. Dari hasil uji *Mann-Whitney* diperoleh bahwa tidak terdapat perbedaan persepsi penilaian antara kalangan lingkup pendidikan dan kalangan masyarakat umum.
 
 ## Tujuan
 
-1. Mengimplementasikan visualisasi data interaktif menggunakan Tableau terkait data pendidikan di Provinsi Jawa Barat dalam satu Story Board yang menarik.
+1. Mengimplementasikan visualisasi data interaktif menggunakan Tableau terkait data pendidikan di Provinsi Jawa Barat dalam satu *Story Board* yang menarik.
 2. Mengevaluasi visualisasi data interaktif yang telah dibuat berdasarkan persepsi penilaian oleh dua kelompok pengguna.
 
 ## Pengumpulan Data
@@ -47,7 +47,12 @@ Hasil visualisasi dipublikasikan melalui server Tableau *Public* dan dapat diaks
 
 ### Evaluasi Visualisasi Interaktif Data Pendidikan Provinsi Jawa Barat
 
-Terdapat 10 responden dengan rincian 5 responden dari kalangan lingkup pendidikan dan 5 responden dari kalangan masyarakat umum. Evaluasi dilakukan dengan 10 pertanyaan berdasarkan kuesioer *System Usability Scale* (SUS). Setiap pertanyaan diisi menggunakan skala *likert* (1 - 5) dimana 1 berarti **Sangat tidak setuju** dan 5 berarti **Sangat setuju**. Hasil pengumpulan data kemudian diolah untuk dihitung skor setiap responden dan skor akhir secara keseluruhan. Diperoleh hasil perhitungan seperti berikut. 
+Terdapat 10 responden dengan rincian 5 responden dari kalangan lingkup pendidikan dan 5 responden dari kalangan masyarakat umum. Evaluasi dilakukan dengan 10 pertanyaan berdasarkan kuesioer *System Usability Scale* (SUS). Setiap pertanyaan diisi menggunakan skala *likert* (1 - 5) dimana 1 berarti **Sangat tidak setuju** dan 5 berarti **Sangat setuju**. Hasil pengumpulan data kemudian diolah untuk dihitung skor setiap responden dan skor akhir secara keseluruhan. Perhitungan skor mengikuti aturan diantaranya.
+1. Skor responden setiap pertanyaan bernomor ganjil akan dikurangi 1
+2. Skor akhir untuk soal bernomor genap adalah didapat dari nilai 5 dikurangi skor responden
+3. Skor SUS yang didapat dari hasil penjumlahan setiap pertanyaan kemudian di kali 2.5.
+
+Diperoleh hasil perhitungan seperti berikut. 
 
 |Responden	|Q1  |Q2	|Q3	 |Q4	|Q5	 |Q6	|Q7	 |Q8	|Q9	 |Q10	|Jumlah |	Skor |
 |-----------|----|----|----|----|----|----|----|----|----|----|-------|------|
@@ -63,8 +68,17 @@ Terdapat 10 responden dengan rincian 5 responden dari kalangan lingkup pendidika
 |10	        |3	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |3	 |3	  |30	    |75    |
 |Jumlah	    |36	 |30	|32	 |34	|36	 |32	|32	 |33	|33	 |28	|326	  |815   |
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+Berdasarkan perhitungan menggunakan formula di atas, diperoleh skor rata-rata untuk visualisasi data interaktif pendidikan di Provinsi Jawa Barat sebesar 81.5 dan mendapatkan nilai B yang artinya **Excellent**.
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+### Perbedaan Persepsi Penilaian Kelompok Lingkup Pendidikan dan Masyarakat Umum
+
+Hipotesis awal dalam pengujian menggunakan uji Mann Whitney adalah tidak ada perbedaan persepsi penilaian antara kedua kategori responden. Sedangkan hipotesis alternatifnya adalah terdapat perbedaan persepsi penilaian antara kedua kategori responden. Tingkat signifikansi yang digunakan adalah 5 persen. Hasil dari uji *Mann Whitney* ditunjukkan pada Tabel berikut.
+
+|Nilai	                | Skor   |
+|-----------------------|--------|
+|Mann-Whitney U	        | 11.50  | 
+|Wilcoxon W	            |26.50   |
+|Z	                    | -0.213 | 
+|Asymp.Sig.(2-tailed)	  |0.831   |
+
+Diperoleh nilai Z hitung sebesar -0.213 dengan nilai p-value sebesar 0.831. Oleh karena nilai p-value lebih besar dari tingkat signifikansi yaitu 5 persen maka keputusan yang diambil adalah **gagal tolak hipotesis awal**. Artinya **tidak terdapat perbedaan persepsi** penilaian antara kedua kategori responden terhadap visualisasi interaktif potret Provinsi Jawa Barat dalam SDGs 4 yang berbentuk Story board. Dengan kata lain, visualisasi interaktif ini dapat digunakan oleh berbagai kalangan masyarakat baik pada kalangan lingkup pendidikan maupun kalangan masyarakat umum. 
